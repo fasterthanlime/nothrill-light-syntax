@@ -1,0 +1,15 @@
+{
+  "name": "nothrill-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A fork of nofrils-dark",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/jonathanmh/nothrill-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
