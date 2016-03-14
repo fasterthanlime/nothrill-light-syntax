@@ -1,13 +1,13 @@
 {
-  "name": "nothrill-dark-syntax",
+  "name": "nothrill-light-syntax",
   "theme": "syntax",
   "version": "0.2.1",
-  "description": "A fork of nofrils-dark",
+  "description": "A fork of nofrils-light",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/jonathanmh/nothrill-dark-syntax",
+  "repository": "https://github.com/fasterthanlime/nothrill-light-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -4,13 +4,14 @@
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: @white;
+@syntax-text-color: @dark-gray;
 @syntax-cursor-color: @black;
-@syntax-selection-color: @black;
-@syntax-background-color: @darker-gray;
+@syntax-selection-color: @white;
+@syntax-selection-flash-color: @white;
+@syntax-background-color: @lightest-gray;
 
 // Guide colors
-@syntax-wrap-guide-color: @dark-gray;
+@syntax-wrap-guide-color: @black;
 @syntax-indent-guide-color: @gray;
 @syntax-invisible-character-color: @gray;
 
@@ -21,11 +22,11 @@
 // Gutter colors
 @syntax-gutter-text-color: @gray;
 @syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: @darker-gray;
-@syntax-gutter-background-color-selected: @black;
+@syntax-gutter-background-color: @lightest-gray;
+@syntax-gutter-background-color-selected: @white;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @white;
-@syntax-color-added: @green;
-@syntax-color-modified: @orange;
-@syntax-color-removed: @red;
+@syntax-color-renamed: @black;
+@syntax-color-added: @dark-green;
+@syntax-color-modified: @dark-orange;
+@syntax-color-removed: @dark-red;
