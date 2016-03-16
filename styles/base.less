@@ -4,6 +4,12 @@ atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
+  .bracket-matcher {
+    position: absolute;
+    border: none !important;
+    background-color: @syntax-selection-color;
+  }
+
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
   }
